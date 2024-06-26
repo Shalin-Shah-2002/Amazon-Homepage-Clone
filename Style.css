@@ -268,7 +268,7 @@ i {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+
     /* align-items: start; */
 }
 
@@ -282,9 +282,11 @@ i {
 
 }
 
-.buy1 h2,a{
+.buy1 h2,
+a {
     margin-left: 20px;
 }
+
 .image1 {
     background-image: url(Images/shop_deals_in_fashion.png);
     background-size: cover;
@@ -293,7 +295,8 @@ i {
     margin-left: 20px;
     margin-right: 20px;
 }
-.image2{
+
+.image2 {
     background-image: url(Images/pc_deals.jpg);
     background-size: cover;
     background-position: -50px;
@@ -301,7 +304,8 @@ i {
     margin-left: 20px;
     margin-right: 20px;
 }
-.image3{
+
+.image3 {
     background-image: url(Images/box1_image.jpg);
     background-size: cover;
     background-position: -50px;
@@ -309,7 +313,8 @@ i {
     margin-left: 20px;
     margin-right: 20px;
 }
-.image4{
+
+.image4 {
     background-image: url(Images/box4_image.jpg);
     background-size: cover;
     background-position: -50px;
@@ -317,7 +322,8 @@ i {
     margin-left: 20px;
     margin-right: 20px;
 }
-.image5{
+
+.image5 {
     background-image: url(Images/Home_décor_under_$50.jpg);
     background-size: cover;
     background-position: -50px;
@@ -325,7 +331,8 @@ i {
     margin-left: 20px;
     margin-right: 20px;
 }
-.image6{
+
+.image6 {
     background-image: url(Images/Toys.jpg);
     background-size: cover;
     background-position: -50px;
@@ -333,7 +340,8 @@ i {
     margin-left: 20px;
     margin-right: 20px;
 }
-.image7{
+
+.image7 {
     background-image: url(Images/box5_image.jpg);
     background-size: cover;
     background-position: -50px;
@@ -341,12 +349,63 @@ i {
     margin-left: 20px;
     margin-right: 20px;
 }
-.buy1 a{
+
+.buy1 a {
     text-decoration: none;
     color: #007185;
     font-size: small;
 }
-.buy1 h2{
+
+.buy1 h2 {
     font-size: 21px;
 }
 
+.horizontal-buy-section {
+    height: 261.5px;
+    width: 74.5%;
+    background-color: white;
+    position: relative;
+    bottom: 285px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: large;
+    font-weight: 700;
+}
+
+.buys {
+    height: 80%;
+    width: 100%;
+    background-color: grey;
+    background-image: url(Images/horizontal_buys.png);
+    background-size: cover;
+}
+
+.footer {
+    height: 600px;
+    width: 100%;
+    background-color: #232F3E;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sections {
+    display: flex;
+    margin-left: 440px;
+    margin-right: 440px;
+    justify-content: space-evenly;
+    color: white;
+
+}
+
+.section1 p {
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+#head {
+    font-weight: bold;
+    font-size: 16px;
+}
